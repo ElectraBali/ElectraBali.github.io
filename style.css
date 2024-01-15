@@ -1,0 +1,85 @@
+.banner {
+  background: url("img/banner\ electraa.jpg") 
+  no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color:#fff;
+  
+}
+.display-3 {
+
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-link:hover::after{
+  content: '';
+  display:block;
+  border-bottom: 3px solid #de363691;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 3px;
+  margin-bottom: -8px;
+}
+nav ul li {
+  text-shadow: 2px 2px 4px #000000;
+  display: inline-block;
+  margin: 0px 9px;
+  
+ 
+}
+span {
+  color:rgb(164, 46, 46);
+}
+
+@media only screen and (max-width: 1000px){
+  .navbar-nav{
+      text-align: center;
+      
+      width: 70px;
+      margin: auto;
+   
+  }
+
+}
+.title h2{
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px; 
+}
+.card{
+  height: 365px;
+  margin: 15px;
+}
+.nav.link{
+  color:#000000 !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.display-6 {
+  text-shadow: 2px 2px 4px #000000;
+}
+.display-1 {
+  text-shadow: 1px 1px 4px #000000;
+}
+
+ /* html {
+  overflow-y: scroll;
+}  */
+.navbar-nav {
+  position: sticky;
+  top: 0;
+  /* properti lain yang mungkin Anda butuhkan */
+}
