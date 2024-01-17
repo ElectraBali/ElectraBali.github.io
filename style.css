@@ -78,8 +78,3 @@ body {
  /* html {
   overflow-y: scroll;
 }  */
-.navbar-nav {
-  position: sticky;
-  top: 0;
-  /* properti lain yang mungkin Anda butuhkan */
-}
