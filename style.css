@@ -21,6 +21,7 @@
   margin: auto;
   padding-bottom: 3px;
   margin-bottom: -8px;
+  
 }
 nav ul li {
   text-shadow: 2px 2px 4px #000000;
@@ -66,15 +67,22 @@ span {
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 .display-6 {
   text-shadow: 2px 2px 4px #000000;
 }
 .display-1 {
   text-shadow: 1px 1px 4px #000000;
+  
+}
+.container {
+  position: relative;
+  overflow: hidden;
 }
 
- /* html {
-  overflow-y: scroll;
-}  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.a {
+  font-family: 'Poppins', sans-serif;
+}
